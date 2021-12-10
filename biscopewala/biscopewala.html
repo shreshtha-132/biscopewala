@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biscopewala</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <style>
+        body {
+          background-image: url('pexels-vitaly-vlasov-1655817.jpg');
+            background-size: cover;
+            background-attachment: fixed;          
+          
+        }
+        
+        .logo{
+            font-family: 'Fruktur', cursive;
+            color: white;
+            
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 12px;
+            top: 2px;
+            
+        }
+        .navbar{
+            /* border: 2px solid blue; */
+            display: block;
+            width: 33%;
+            margin: auto;
+            text-decoration: none;
+            font-family: 'Fruktur', cursive;
+            
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 3px 3px;
+            
+        }
+        .navbar li{
+            
+            float: left;
+            list-style: none;
+        }
+        .contact{
+            /* border: 2px solid green; */
+            position: absolute;
+            right: 12px;
+            top: 20px;
+            font-family: 'Fruktur', cursive;
+            
+
+        }
+        .container{
+            /* border: 2px solid violet; */
+            overflow: auto;
+        }
+        .navbar ul{
+            overflow: auto;
+            padding-left: 130px;
+        }
+        .button
+        {
+            border-radius: 20px;
+        }
+        form.cont input
+        {
+            color:red
+            padding: 2px;
+        }
+        .cont
+        {
+            background-color: rgb(245, 245, 238);
+            
+            border: 2px solid black;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+    }
+    .form-group input {
+        /* font-family: 'Baloo Bhai', cursive; */
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 100px;
+        border-radius: 8px;
+    }
+            
+            
+        }
+        </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>biscopewala</h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Pictures</a></li>
+                    <li><a href="#">Videos</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <button class="button" style="font-family: 'Fruktur', cursive;">Email us</button>
+                <button class="button" style="font-family: 'Fruktur', cursive;">Call us</button>
+            </div>
+        </div>
+    </header>
+    <div class="cont">
+        <form action="no.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="em">Email:</label><br>
+            <input type="text" name="email" id="emaa"><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+    
+</body>
+</html>
